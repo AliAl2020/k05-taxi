@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Taxi Unterschleißheim</title>
+    <title>TAXI ASM Unterschleißheim</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
@@ -12,11 +12,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <style>
-        body {
-            background-color: #000;
-            color: #fff;
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
             font-family: Arial, sans-serif;
+            color: #fff;
+            background-color: #000;
+            overflow-x: hidden;
+    
         }
+body {
+    padding-top: 70px; /* Damit der Inhalt nicht hinter dem fixen Navbar verschwindet */
+}
+
 
         .navbar, footer {
             background-color: #222;
@@ -30,7 +39,49 @@
             color: #ffc107;
         }
 
-        .icon-circle {
+        .carousel-item img {
+            height: 100vh;
+            object-fit: cover;
+            filter: brightness(50%);
+        }
+
+        #start {
+            position: relative;
+        }
+
+        .overlay-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+            text-align: center;
+        }
+
+        .overlay-content h1 {
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .btn-call {
+            background-color: #ffc107;
+            color: #000;
+            padding: 10px 20px;
+            font-size: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.icon-circle {
             font-size: 50px;
             color: #ffc107;
             margin-bottom: 15px;
@@ -52,7 +103,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg">
     <div class="container">
-        <a class="navbar-brand" href="#">Taxi Unterschleißheim</a>
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo" style="height:100px; vertical-align:middle;"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -69,7 +120,7 @@
 
 <!-- Slider Startseite -->
 <section id="start">
-    <div id="carouselExample" class="carousel slide">
+    <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="images/s1.jpg" class="d-block w-100">
@@ -81,15 +132,12 @@
                 <img src="images/s3.jpg" class="d-block w-100">
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
+    </div>
+    <div class="overlay-content">
+        <h1>TAXI ASM Unterschleißheim</h1>
+        <a href="tel:111111111111" class="btn-call">Bitte rufen Sie 111111111111 an</a>
     </div>
 </section>
-
 <!-- Leistungen (nur Taxi) -->
 <section id="leistung" class="section-padding text-center">
     <div class="container">
@@ -138,7 +186,6 @@
 <footer>
     © 2024 Taxi Unterschleißheim
 </footer>
-
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
