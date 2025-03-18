@@ -203,14 +203,36 @@ body {
 <!-- Kontakt -->
 <section id="kontakt" class="section-padding">
     <div class="container">
-        <h2 class="text-center">Kontakt & Buchung</h2>
-        <form>
-            <input type="text" class="form-control mb-3" placeholder="Ihr Name">
-            <input type="email" class="form-control mb-3" placeholder="Ihre E-Mail">
-            <input type="tel" class="form-control mb-3" placeholder="Telefon">
-            <textarea class="form-control mb-3" rows="4" placeholder="Ihre Nachricht"></textarea>
-            <button class="btn btn-warning w-100">Absenden</button>
-        </form>
+        <h2 class="text-center mb-5">Kontakt & Buchung</h2>
+        <div class="row">
+            <!-- Linke Spalte: Kontaktinformationen -->
+            <div class="col-md-6">
+                <div class="card bg-dark text-white p-4">
+                    <h4 class="mb-4"><i class="fa-solid fa-phone"></i> Telefon:</h4>
+                    <p>
+                        <a href="tel:+498931198242" class="text-warning fs-5">+49 89 3119 8242</a><br>
+                        <a href="tel:+4915126888453">+49 151 2688 8453</a>
+                    </p>
+
+                    <h4 class="mt-4"><i class="fa fa-envelope"></i> E-Mail:</h4>
+                    <p><a href="mailto:info@munich-airportshuttle.de" class="text-warning">info@munich-airportshuttle.de</a></p>
+
+                    <h4 class="mt-4"><i class="fa fa-map-marker-alt"></i> Adresse:</h4>
+                    <p>
+                        Ohmstr. 2,<br>
+                        85716 Unterschleißheim<br>
+                        Deutschland
+                    </p>
+                </div>
+            </div>
+
+            <!-- Rechte Spalte: Google Maps -->
+            <div class="col-md-6">
+                <div class="card bg-dark text-white p-2">
+                    <h4 class="mb-3"><i class="fa fa-map-marker-alt"></i> Unser Standort</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10619.532253546873!2d11.563910885763832!3d48.28586550103142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e71d1d3233431%3A0x77df63b13525465b!2sOhmstra%C3%9Fe%202%2C%2085716%20Unterschlei%C3%9Fheim!5e0!3m2!1sen!2sde!4v1742341431737!5m2!1sen!2sde" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
     </div>
 </section>
 
