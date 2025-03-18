@@ -112,6 +112,7 @@ body {
                 <li class="nav-item"><a class="nav-link" href="#start">Startseite</a></li>
                 <li class="nav-item"><a class="nav-link" href="#leistung">Leistung</a></li>
                 <li class="nav-item"><a class="nav-link" href="#preise">Preise</a></li>
+                <li class="nav-item"><a class="nav-link" href="#impressum">Impressum</a></li>
                 <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
             </ul>
         </div>
@@ -135,7 +136,7 @@ body {
     </div>
     <div class="overlay-content">
         <h1>TAXI ASM Unterschleißheim</h1>
-        <a href="tel:111111111111" class="btn-call">Bitte rufen Sie 111111111111 an</a>
+        <a href="tel:089 3119 8242" class="btn-call">Bitte rufen Sie +49 (0)89 3119 8242 an</a>
     </div>
 </section>
 <!-- Leistungen (nur Taxi) -->
@@ -167,7 +168,38 @@ body {
         </table>
     </div>
 </section>
+<section id="impressum" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="mb-4">Impressum</h2>
+                <img src="images/logo.png" alt="Taxi ASM Unterschleißheim Logo" style="height: 100px; margin-bottom: 20px;">
 
+                <address>
+                    <strong>Taxi ASM Unterschleißheim</strong><br>
+                    Stefan Andronikov<br>
+                    Ohmstr. 2<br>
+                    85716 Unterschleißheim<br>
+                    Deutschland<br><br>
+
+                    <strong>Kontakt</strong><br>
+                    Telefon: <a href="tel:+498931198242">+49 (0)89 3119 8242</a><br>
+                    E-Mail: <a href="mailto:info@munich-airportshuttle.de">info@munich-airportshuttle.de</a><br><br>
+
+                    <strong>Steuernummer:</strong> 144/110/11071<br>
+                    <strong>USt-IdNr.:</strong> DE251281201<br>
+                </address>
+
+                <p class="mt-4"><small>
+                    Alle auf dieser Website verwendeten Fotos sind lizenzierte Bilder, erworben bei shutterstock.com.<br>
+                    Alle Inhalte dieser Webseite wurden sorgfältig geprüft. Dennoch übernehmen wir keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Informationen.<br>
+                    Für externe Links zu fremden Inhalten übernehmen wir trotz sorgfältiger Kontrolle keine Haftung. Für die Inhalte der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.<br><br>
+                    &copy; 2024 Taxi ASM Unterschleißheim
+                </small></p>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- Kontakt -->
 <section id="kontakt" class="section-padding">
     <div class="container">
@@ -184,7 +216,7 @@ body {
 
 <!-- Footer -->
 <footer>
-    © 2024 Taxi Unterschleißheim
+    © 2025 Taxi Unterschleißheim
 </footer>
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
