@@ -50,7 +50,7 @@
                     <a class="nav-link text-warning fw-bold" href="#leistung">Leistung</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-warning fw-bold" href="#preise">Preise</a>
+                    <a class="nav-link text-warning fw-bold" href="#preise">Preise & Leistungen</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-warning fw-bold" href="#impressum">Impressum</a>
@@ -91,24 +91,28 @@
     </div>
 </section>
 
-<!-- Preise -->
 <section id="preise" class="section-padding">
     <div class="container">
-        <h2 class="text-center">Preise</h2>
-        <table class="table table-dark table-striped mt-4">
-            <thead>
-                <tr>
-                    <th>Ziel</th>
-                    <th>Preis</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td>Unterschleißheim → München Zentrum</td><td>45 €</td></tr>
-                <tr><td>Unterschleißheim → Flughafen München</td><td>35 €</td></tr>
-                <tr><td>Unterschleißheim → Augsburg</td><td>120 €</td></tr>
-                <tr><td>Weitere Ziele</td><td>auf Anfrage</td></tr>
-            </tbody>
-        </table>
+        <h2 class="text-center">Preise & Leistungen</h2>
+        <p class="text-center">
+            Wir fahren nicht mehr nach dem Taxi-Tarif München, sondern nur noch nach Vereinbarung.
+        </p>
+        
+        <h3>Unsere Leistungen:</h3>
+        <div class="row justify-content-center">
+        <div class="col-md-4">
+        <ul class="list-group list-group-flush text-center ">
+            <li class="list-group-item bg-dark text-white"><i class="fas fa-check-circle text-warning"></i> Saubere Fahrzeuge</li>
+            <li class="list-group-item bg-dark text-white"><i class="fas fa-check-circle text-warning"></i> Fahrer mit Ortskundeprüfung</li>
+            <li class="list-group-item bg-dark text-white"><i class="fas fa-check-circle text-warning"></i> Keine Essensgerüche im Fahrzeug</li>
+            <li class="list-group-item bg-dark text-white"><i class="fas fa-check-circle text-warning"></i> Krankenfahrten</li>
+            <li class="list-group-item bg-dark text-white"><i class="fas fa-check-circle text-warning"></i> Security-Fahrten</li>
+            <li class="list-group-item bg-dark text-white"><i class="fas fa-check-circle text-warning"></i> Kurierfahrten</li>
+        </ul>
+</div></div>
+        <p class="text-center mt-4">
+            Preise für Fahrten erfolgen nach individueller Vereinbarung. Kontaktieren Sie uns für ein Angebot!
+        </p>
     </div>
 </section>
 <section id="impressum" class="section-padding">
