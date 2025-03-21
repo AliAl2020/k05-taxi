@@ -86,9 +86,9 @@
 <section id="leistung" class="section-padding text-center">
     <div class="container">
         <i class="fa-solid fa-taxi icon-circle"></i>
-        <h2>Unsere Leistungen</h2>
+        <h2>Unsere Leistungen:</h2>
         <p>Wir bieten zuverlässige und pünktliche Taxifahrten rund um Unterschleißheim und Umgebung. Unser Taxi-Service steht Ihnen rund um die Uhr zur Verfügung, egal ob Kurzstrecken, Flughafentransfer oder Langstreckenfahrten.</p>
-        <h3>Unsere Leistungen:</h3>
+        
         <div class="row justify-content-center">
         <div class="col-md-4">
         <ul class="list-group list-group-flush text-center ">
