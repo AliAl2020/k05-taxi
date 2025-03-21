@@ -95,7 +95,7 @@
     <div class="container">
         <h2 class="text-center">Preise & Leistungen</h2>
         <p class="text-center">
-            Wir fahren nicht mehr nach dem Taxi-Tarif München, sondern nur noch nach Vereinbarung.
+        Wir fahren nach Taxi Tarif München oder vorherige Vereinbarung.
         </p>
         
         <h3>Unsere Leistungen:</h3>
