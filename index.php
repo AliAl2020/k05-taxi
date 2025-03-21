@@ -31,8 +31,9 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
     <div class="container">
         <!-- Logo -->
-        <a class="navbar-brand" href="#">
-            <img src="images/logo.png" alt="Logo" style="height: 60px; vertical-align: middle;">
+        <a class="navbar-brand d-flex flex-column align-items-center text-center" href="#">
+            <img src="images/logo.png" alt="Logo" style="height: 50px; vertical-align: middle; margin-bottom: -5px;">
+            <span style="font-size: 12px; color: #ccc;">Pkw und Großraum Busse</span>
         </a>
         
         <!-- Navbar Toggler for Mobile -->
@@ -66,10 +67,8 @@
 <section id="start">
     <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
         <div class="carousel-inner">
+
             <div class="carousel-item active">
-                <img src="images/s1.jpg" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
                 <img src="images/s2.jpg" class="d-block w-100">
             </div>
             <div class="carousel-item">
@@ -110,10 +109,8 @@
         <p class="text-center">
         Wir fahren nach Taxi Tarif München oder vorherige Vereinbarung.
         </p>
-        
-
-        <p class="text-center mt-4">
-            Preise für Fahrten erfolgen nach individueller Vereinbarung. <br>Kontaktieren Sie uns für ein Angebot!
+        <p class="text-center">
+        Preise für Fahrten mehr als 50 km können individuell vereinbart werden. <br>Kontaktieren Sie uns für ein Angebot!
         </p>
     </div>
 </section>
