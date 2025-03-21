@@ -97,6 +97,7 @@
             <li class="list-group-item bg-dark text-white"><i class="fas fa-check-circle text-warning"></i> Krankenfahrten</li>
             <li class="list-group-item bg-dark text-white"><i class="fas fa-check-circle text-warning"></i> Security-Fahrten</li>
             <li class="list-group-item bg-dark text-white"><i class="fas fa-check-circle text-warning"></i> Kurierfahrten</li>
+            <li class="list-group-item bg-dark text-white"><i class="fas fa-check-circle text-warning"></i> Großraum Busse bis zu 8 Personen</li>
         </ul>
 </div></div>
     
