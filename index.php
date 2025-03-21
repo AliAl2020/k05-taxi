@@ -113,7 +113,7 @@
         
 
         <p class="text-center mt-4">
-            Preise für Fahrten erfolgen nach individueller Vereinbarung. Kontaktieren Sie uns für ein Angebot!
+            Preise für Fahrten erfolgen nach individueller Vereinbarung. <br>Kontaktieren Sie uns für ein Angebot!
         </p>
     </div>
 </section>
