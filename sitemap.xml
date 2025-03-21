@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://taxi-schleissheim.de/</loc>
+        <lastmod>2025-03-21</lastmod>
+        <priority>1.0</priority>
+        <changefreq>daily</changefreq>
+        <image:image>
+            <image:loc>https://taxi-schleissheim.de/images/logo.png</image:loc>
+            <image:title>Taxi ASM Logo</image:title>
+        </image:image>
+    </url>
+
+    <!-- Startseite -->
+    <url>
+        <loc>https://taxi-schleissheim.de/#start</loc>
+        <lastmod>2025-03-21</lastmod>
+        <priority>0.9</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <!-- Leistung -->
+    <url>
+        <loc>https://taxi-schleissheim.de/#leistung</loc>
+        <lastmod>2025-03-21</lastmod>
+        <priority>0.8</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <!-- Preise -->
+    <url>
+        <loc>https://taxi-schleissheim.de/#preise</loc>
+        <lastmod>2025-03-21</lastmod>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- Impressum -->
+    <url>
+        <loc>https://taxi-schleissheim.de/#impressum</loc>
+        <lastmod>2025-03-21</lastmod>
+        <priority>0.5</priority>
+        <changefreq>yearly</changefreq>
+    </url>
+
+    <!-- Kontakt -->
+    <url>
+        <loc>https://taxi-schleissheim.de/#kontakt</loc>
+        <lastmod>2025-03-21</lastmod>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- Bilder (Google Bilder-Suche) -->
+    <url>
+        <loc>https://taxi-schleissheim.de/images/</loc>
+        <lastmod>2025-03-21</lastmod>
+        <priority>0.4</priority>
+        <changefreq>yearly</changefreq>
+
+        <image:image>
+            <image:loc>https://taxi-schleissheim.de/images/s2.jpg</image:loc>
+            <image:title>Taxi Schleissheim Flotte</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://taxi-schleissheim.de/images/s3.jpg</image:loc>
+            <image:title>Taxi für Flughafentransfer</image:title>
+        </image:image>
+    </url>
+
+</urlset>
