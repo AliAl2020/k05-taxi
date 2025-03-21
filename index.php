@@ -50,7 +50,7 @@
                     <a class="nav-link text-warning fw-bold" href="#leistung">Leistung</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-warning fw-bold" href="#preise">Preise & Leistungen</a>
+                    <a class="nav-link text-warning fw-bold" href="#preise">Preise </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-warning fw-bold" href="#impressum">Impressum</a>
@@ -88,16 +88,6 @@
         <i class="fa-solid fa-taxi icon-circle"></i>
         <h2>Unsere Leistungen</h2>
         <p>Wir bieten zuverlässige und pünktliche Taxifahrten rund um Unterschleißheim und Umgebung. Unser Taxi-Service steht Ihnen rund um die Uhr zur Verfügung, egal ob Kurzstrecken, Flughafentransfer oder Langstreckenfahrten.</p>
-    </div>
-</section>
-
-<section id="preise" class="section-padding">
-    <div class="container">
-        <h2 class="text-center">Preise & Leistungen</h2>
-        <p class="text-center">
-        Wir fahren nach Taxi Tarif München oder vorherige Vereinbarung.
-        </p>
-        
         <h3>Unsere Leistungen:</h3>
         <div class="row justify-content-center">
         <div class="col-md-4">
@@ -110,6 +100,18 @@
             <li class="list-group-item bg-dark text-white"><i class="fas fa-check-circle text-warning"></i> Kurierfahrten</li>
         </ul>
 </div></div>
+    
+    </div>
+</section>
+
+<section id="preise" class="section-padding">
+    <div class="container">
+        <h2 class="text-center">Preise </h2>
+        <p class="text-center">
+        Wir fahren nach Taxi Tarif München oder vorherige Vereinbarung.
+        </p>
+        
+
         <p class="text-center mt-4">
             Preise für Fahrten erfolgen nach individueller Vereinbarung. Kontaktieren Sie uns für ein Angebot!
         </p>
